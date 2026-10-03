@@ -1,6 +1,6 @@
 ---
 titolo: Jade
-stato: vivo
+stato: viva
 estratto: Incinta, legata a una sorella che nel sogno la accusa di essere succube dei suoi poteri. Il suo diario resta asciutto nel mare dei sogni.
 ---
 

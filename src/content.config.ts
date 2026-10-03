@@ -25,7 +25,7 @@ const personaggi = defineCollection({
     ...baseFields,
     giocatore: z.string().optional(),
     professione: z.string().optional(),
-    stato: z.enum(['vivo', 'morto', 'folle', 'scomparso', 'ritirato']).default('vivo'),
+    stato: z.enum(['vivo', 'viva', 'morto', 'morta', 'folle', 'scomparso', 'scomparsa', 'ritirato', 'ritirata']).default('vivo'),
     sanita: z.number().int().min(0).max(99).optional(),
     fazione: z.string().optional(),
   }),
@@ -36,7 +36,7 @@ const png = defineCollection({
   schema: z.object({
     ...baseFields,
     ruolo: z.string().optional(),
-    stato: z.enum(['vivo', 'morto', 'folle', 'scomparso', 'sconosciuto']).default('vivo'),
+    stato: z.enum(['vivo', 'viva', 'morto', 'morta', 'folle', 'scomparso', 'scomparsa', 'sconosciuto']).default('vivo'),
     fazione: z.string().optional(),
     luogo: z.string().optional(),
   }),

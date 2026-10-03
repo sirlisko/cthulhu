@@ -476,6 +476,7 @@ main {
 }
 
 .badge-morto,
+.badge-morta,
 .badge-folle {
   color: var(--color-verdigris);
 }

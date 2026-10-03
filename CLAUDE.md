@@ -53,11 +53,13 @@ These apply to every content edit.
   `estratto` (≤300 chars), `luoghiVisitati`, `tag`. Body: third-person
   Italian narrative in `##` sections by scene.
 - `personaggi/` (investigators): `titolo`, `professione`, `stato`
-  (`vivo`|`morto`|`folle`|`scomparso`|`ritirato`), `sanita` (final SAN,
+  (`vivo`|`morto`|`folle`|`scomparso`|`ritirato`, or the feminine
+  `viva`|`morta`|`scomparsa`|`ritirata` for women), `sanita` (final SAN,
   optional), `fazione`, `estratto`, `tag`, `immagine` only if the file
   exists.
 - `png/` (comprimari): `titolo`, `ruolo`, `stato`
-  (`vivo`|`morto`|`folle`|`scomparso`|`sconosciuto`), `fazione`, `luogo`,
+  (`vivo`|`morto`|`folle`|`scomparso`|`sconosciuto`, feminine
+  forms as above), `fazione`, `luogo`,
   `estratto`, `tag`.
 - `luoghi/`: `titolo`, `tipo`, `regione`, `estratto`, `tag`.
 - Filenames are the kebab-case, accent-free `titolo`.

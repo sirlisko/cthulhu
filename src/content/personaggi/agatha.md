@@ -1,7 +1,7 @@
 ---
 titolo: Agatha
 professione: Cartomante
-stato: vivo
+stato: viva
 estratto: Cartomante con un passato di truffe e un gatto, Salem, che la segue anche nei sogni. Esce dalle Terre del Sogno invecchiata di diciassette anni.
 tag: [specchio d'opale]
 ---

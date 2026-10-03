@@ -51,7 +51,7 @@ const party = characters.filter((p) => fs.existsSync(path.join(process.cwd(), 'p
           <li>
             <a href={`/personaggi/${p.id}`}>{p.data.titolo}</a>
             {p.data.professione && <span> {p.data.professione}</span>}
-            {p.data.stato !== 'vivo' && <span class={`badge badge-${p.data.stato}`}> {p.data.stato}</span>}
+            {!['vivo', 'viva'].includes(p.data.stato) && <span class={`badge badge-${p.data.stato}`}> {p.data.stato}</span>}
           </li>
         ))}
       </ul>

@@ -1,6 +1,6 @@
 ---
 titolo: Rita
-stato: morto
+stato: morta
 estratto: Ossessionata dalla sorellina morta e da un fratello che non è mai esistito. Muore nel sogno, e nel suo corpo ora c'è Chung.
 ---
 
