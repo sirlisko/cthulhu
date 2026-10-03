@@ -7,5 +7,5 @@ estratto: Dopo sette giorni di viaggio, gli investigatori arrivano a Berlino sul
 
 Qui si trovano la [[Banca di Berlino]], la [[Biblioteca di Berlino|biblioteca]]
 dell'*Antiquarium Tenebris* e il negozio [[Antiquitäten & Kuriositäten]].
-È in un albergo di Berlino che il gruppo si addormenta per entrare nelle
+È all'[[Hotel Savoy]] che il gruppo si addormenta per entrare nelle
 [[Terre del Sogno]].

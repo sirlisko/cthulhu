@@ -4,3 +4,13 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+[[redirects]]
+  from = "/personaggi/agatha"
+  to = "/personaggi/agatha-fletcher"
+  status = 301
+
+[[redirects]]
+  from = "/png/kurt"
+  to = "/png/kurt-vebert"
+  status = 301

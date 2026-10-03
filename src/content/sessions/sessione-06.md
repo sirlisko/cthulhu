@@ -8,7 +8,7 @@ luoghiVisitati: [Terre del Sogno]
 
 ## La scala nel vuoto
 
-Sulla soglia, [[HP Lawrence|HP]] afferra [[Agatha]] e [[Jade]] si mette in mezzo. A HP
+Sulla soglia, [[HP Lawrence|HP]] afferra [[Agatha Fletcher|Agatha]] e [[Jade]] si mette in mezzo. A HP
 appare Freud, e HP prova a dominare la sua rabbia verso i vecchi; scrive
 sul diario, cercando di elaborarla.
 

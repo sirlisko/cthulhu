@@ -6,7 +6,7 @@ titolo: Riassunto della campagna
 
 Tutto comincia con [[Rupert Merriweather]], un vecchio morente alla guida
 della [[Società per l'Esplorazione dell'Inspiegabile]], che affida agli
-investigatori, [[Agatha]], [[HP Lawrence]], [[Rita]], [[Alistar]] e
+investigatori, [[Agatha Fletcher|Agatha]], [[HP Lawrence]], [[Rita]], [[Alistar]] e
 [[Jade]], una scatola: dentro, un piccolo sarcofago egizio dorato, un
 diario in pelle e una chiave. Il sarcofago apparteneva a un usurpatore
 della terza dinastia, ospita un genio e porta i simboli di Mu e della
@@ -31,7 +31,7 @@ lasciarli andare, gli investigatori leggono nell'*Antiquarium Tenebris* di
 Nyarlathotep e dei suoi avatar: [[Ara'gul]], il genio seduttore, e
 [[Q'allith]], la Tessitrice di Incubi. Nel caveau della banca trovano uno
 specchio di ossidiana in cui ognuno vede i propri morti. L'antiquario
-[[Kurt]] vende loro uno specchio d'opale di luce pura, in cambio di una
+[[Kurt Vebert|Kurt]] vende loro uno specchio d'opale di luce pura, in cambio di una
 cortesia ancora da saldare.
 
 ## Le Terre del Sogno

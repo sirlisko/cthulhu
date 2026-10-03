@@ -9,7 +9,7 @@ tag: [fine della stagione]
 
 ## Il ragno
 
-Il gruppo affronta [[Q'allith]]. [[Agatha]] invoca il potere dello
+Il gruppo affronta [[Q'allith]]. [[Agatha Fletcher|Agatha]] invoca il potere dello
 specchio d'opale, una volta, due, senza riuscirci; insiste, e lo specchio
 le si rivolta contro: invecchia di diciassette anni in un istante. Il
 ragno morde [[HP Lawrence|HP]] più volte, ma lui resiste al veleno che

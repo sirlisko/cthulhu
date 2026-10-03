@@ -6,4 +6,4 @@ estratto: In uno sgabuzzino è nascosto l'Antiquarium Tenebris. La biblioteca se
 ---
 
 Nel capitolo [[Il caveau di Berlino]] il gruppo vi trova l'*Antiquarium
-Tenebris*, e [[Agatha]] ci lascia un dito.
+Tenebris*, e [[Agatha Fletcher|Agatha]] ci lascia un dito.

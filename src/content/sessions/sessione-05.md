@@ -8,7 +8,7 @@ luoghiVisitati: [Terre del Sogno]
 
 ## I tarocchi di Agatha
 
-Nel sogno, [[Agatha]] gira le carte. La Torre: il suicidio. Il Diavolo:
+Nel sogno, [[Agatha Fletcher|Agatha]] gira le carte. La Torre: il suicidio. Il Diavolo:
 [[Rupert Merriweather|Rupert]] che la lascia, e il potere. L'Appeso
 rovesciato: le truffe del passato, che questa volta escono al dritto. La
 Morte rovesciata: la paura di perdere. Sente la voce di [[Salem]].

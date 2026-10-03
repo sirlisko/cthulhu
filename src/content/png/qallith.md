@@ -11,4 +11,4 @@ proietta nel mondo reale; per esiliarla serve un artefatto benevolo.
 
 Nelle [[Terre del Sogno]] appare come un ragno alto cinque metri, per metà
 donna, a guardia dell'acchiappasogni, e divora [[Rita]]. Nel capitolo [[La
-Tessitrice di Incubi]] [[Agatha]] la brucia con lo specchio d'opale.
+Tessitrice di Incubi]] [[Agatha Fletcher|Agatha]] la brucia con lo specchio d'opale.
