@@ -32,7 +32,7 @@ legato a un genio. Fino al 1871 era rimasto nelle mani di una famiglia
 inglese; poi era stato rubato e non se n'era saputo più nulla. I simboli al
 suo interno sembrano indicare Mu e la [[Terre del Sogno|Terra dei Sogni]].
 
-Il [[Professor Rice]] aiuta a decifrare i geroglifici, che parlano di
+Il [[Professor Rice|professor Rice]] aiuta a decifrare i geroglifici, che parlano di
 "Yogr Setheth", di un "figlio di Thoth" e di uno spirito di
 [[Nyarlathotep]]. Il genio non può fare danni, ma la luce può comunque
 ferirlo.

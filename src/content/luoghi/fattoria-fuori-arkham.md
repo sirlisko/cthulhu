@@ -2,7 +2,7 @@
 titolo: Fattoria fuori Arkham
 tipo: Fattoria
 regione: Massachusetts
-estratto: Una fattoria fuori Arkham dove, anni fa, sei investigatori affrontarono una Fratellanza Oscura e intrapparono una creatura.
+estratto: Una fattoria fuori Arkham dove, anni fa, sei investigatori affrontarono una Fratellanza Oscura e intrappolarono una creatura.
 ---
 
 Se ne parla nel capitolo [[La scatola di Rupert]]: sei investigatori, una

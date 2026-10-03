@@ -17,7 +17,7 @@ fondo degli altri.
 
 *I simboli trovati in casa di Hans.*
 
-Un documento bruciato della [[Banca di Berlino]] porta una frase: "Thamos,
+Un documento bruciato della [[Banca di Berlino]] riporta una frase: "Thamos,
 re dell'Egitto, ha la chiave". In un libro scoprono che viene da un'opera
 di Mozart.
 
@@ -30,7 +30,7 @@ di Mozart.
 La foto ritrae una spedizione in Egitto del 1865. Nel diario c'è una riga:
 "Oggi ho visto H". In casa ci sono i libri di archeologia di
 [[Evelyn Trommer|Evelyn]], la sorella di [[Hans Trommer|Hans]], che
-guidava la spedizione, mentre Hans se ne occupava come linguista. La tesi
+guidava la spedizione; Hans ne era il linguista. La tesi
 di dottorato di Evelyn riguardava una tomba: quella dello stesso faraone
 del sarcofago.
 

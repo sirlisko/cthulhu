@@ -8,4 +8,4 @@ estratto: Un vecchio che sa di avere i giorni contati. Affida agli investigatori
 Guida la [[Società per l'Esplorazione dell'Inspiegabile]] e ha indagato
 sull'occulto con [[Marion Allen]]. Nel capitolo [[La scatola di Rupert]]
 consegna al gruppo lettera, atto di proprietà, chiave, sarcofago e diario.
-Per [[Agatha Fletcher|Agatha]] è la carta del Diavolo: qualcuno che la sta per lasciare.
+Nei tarocchi di [[Agatha Fletcher|Agatha]] è la carta del Diavolo: qualcuno che sta per lasciarla.

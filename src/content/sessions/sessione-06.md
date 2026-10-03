@@ -32,9 +32,9 @@ sonnolenza, la voglia di coricarsi; inginocchiandosi scoprono che sotto il
 muschio ci sono persone. Quel muschio si usa come medicina, ma quando è
 vivo è carnivoro.
 
-Sull'altare c'è un'urna non coperta di muschio, che fa rumore d'acqua
+Sull'altare c'è un'urna senza muschio, che fa rumore d'acqua
 corrente. Su consiglio di Agatha, HP vi mette una fotografia, e nella foto
-compare dell'acqua: devono immergersi. Agatha rovescia lo scrigno, l'acqua
+compare dell'acqua: devono immergersi. Agatha rovescia l'urna, l'acqua
 riempie la cattedrale, la cupola si apre.
 
 ## Il mare dei sogni

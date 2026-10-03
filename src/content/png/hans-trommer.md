@@ -2,7 +2,7 @@
 titolo: Hans Trommer
 ruolo: Linguista della spedizione del 1865
 stato: sconosciuto
-estratto: Linguista della spedizione del 1865, l'unico di cui si sa che è tornato dall'Egitto. Gli investigatori lo trovano, giovane, in un bozzolo nel sogno.
+estratto: Linguista della spedizione del 1865, uno dei pochi tornati dall'Egitto. Gli investigatori lo trovano, giovane, in un bozzolo nel sogno.
 ---
 
 Professore, fece parte dell'équipe che scoprì e tradusse la stele di

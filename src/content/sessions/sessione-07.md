@@ -12,13 +12,13 @@ tag: [fine della stagione]
 Il gruppo affronta [[Q'allith]]. [[Agatha Fletcher|Agatha]] invoca il potere dello
 specchio d'opale, una volta, due, senza riuscirci; insiste, e lo specchio
 le si rivolta contro: invecchia di diciassette anni in un istante. Il
-ragno morde [[HP Lawrence|HP]] più volte, ma lui resiste al veleno che
-paralizza.
+ragno morde [[HP Lawrence|HP]] più volte, ma lui resiste al veleno
+paralizzante.
 
 [[Salem]] riesce a liberare [[Alistar]] e [[Hans Trommer|Hans]] dai
 bozzoli. Agatha tenta ancora, e questa volta lo specchio risponde: brucia
-il ragno, si ingrandisce e lo schiaccia. Agatha lo stringe tra le mani, il
-cielo si apre e un raggio di sole lo colpisce, e lei lo dirige.
+il ragno, si ingrandisce e lo schiaccia. Agatha lo stringe tra le mani: il
+cielo si apre, un raggio di sole colpisce lo specchio e lei lo dirige.
 
 > diciassette anni
 

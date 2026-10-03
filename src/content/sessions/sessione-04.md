@@ -2,7 +2,7 @@
 titolo: Lo specchio d'opale
 numero: 4
 data: 2025-05-15
-estratto: Un antiquario berlinese riattacca il dito di Agatha e vende uno specchio di luce pura. Poi il gruppo si addormenta di proposito, e i sogni di Alistar e HP diventano incubi.
+estratto: Un antiquario berlinese sostituisce il dito perduto di Agatha e vende al gruppo uno specchio di luce pura. Poi il gruppo si addormenta di proposito, e i sogni di Alistar e HP diventano incubi.
 luoghiVisitati: [Antiquitäten & Kuriositäten, Hotel Savoy, Terre del Sogno]
 ---
 
@@ -13,15 +13,15 @@ oltre l'orario di chiusura e il gruppo deve bussare a lungo prima che apra
 un ragazzo, [[Kurt Vebert|Kurt]], restio a farli entrare; [[HP Lawrence|HP]] pronuncia
 il nome di [[Nyarlathotep]]. Mentre Kurt sta per richiudere, [[Agatha Fletcher|Agatha]]
 nota sulla sua nuca un tatuaggio a forma di gufo: imita il verso del gufo e
-gli fa capire di conoscere quel simbolo e di essere dei gufi.
+gli fa capire di conoscere quel simbolo e di far parte, anche lei, dei gufi.
 
-Dentro, Kurt spiega che il negozio è protetto da un'aura magica, un
-sortilegio lanciato da suo padre, morto nella Grande Guerra, che lo scherma
-dai poteri maligni che si aggirano per Berlino. Dal retrobottega porta una
+Dentro, Kurt spiega che un'aura magica protegge il negozio dai poteri
+maligni che si aggirano per Berlino: è un sortilegio lanciato da suo padre,
+morto nella Grande Guerra. Dal retrobottega porta una
 scimmia conservata in formaldeide: le stacca un dito e lo attacca ad
 Agatha al posto di quello perduto. Il dito si salda, e anche quello della
-scimmia ricresce. È un artefatto di una civiltà perduta, dice, dal potere
-rigenerativo.
+scimmia ricresce. La scimmia, dice, è un artefatto dal potere rigenerativo di
+una civiltà perduta.
 
 Poi tira fuori uno specchio d'opale che emana una luce dorata: uno specchio
 di luce pura, all'apparenza comune, che rivela il potenziale di chi vi si
@@ -41,8 +41,8 @@ pezzo al polso di ognuno; si tengono a braccetto. Poi si addormentano tutti, tra
 
 ## Il sogno di Alistar
 
-Alistar sente una musica classica provenire dal bagno. Ci sono persone
-che gli voltano la faccia, ma non hanno faccia. Sente singhiozzare, poi
+Alistar sente una musica classica provenire dal bagno. Vede delle persone,
+ma non hanno faccia. Sente singhiozzare, poi
 musica da festa. Nel bagno, più grande di quanto dovrebbe essere, c'è
 gente che balla. Sente la voce di sua madre. Tocca la catenina, la porta si
 chiude: è al buio, da solo.
@@ -63,5 +63,5 @@ troppi denti: sono finti. Si concentra e, poco a poco, spariscono.
 
 Ora è nella terra di nessuno. Qualcuno mormora in francese: Antoine, il suo
 amico. La voce arriva da sotto di lui: gli sta calpestando la faccia. HP
-perde il controllo. Il suo terrore è invecchiare, e i vecchi. Poi si
+perde il controllo. Lo terrorizzano i vecchi, e l'idea di diventarlo. Poi si
 ritrova davanti a un lago, con una porta.

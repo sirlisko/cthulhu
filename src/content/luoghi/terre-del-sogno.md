@@ -1,7 +1,7 @@
 ---
 titolo: Terre del Sogno
 tipo: Piano onirico
-estratto: "Dove gli investigatori finiscono addormentandosi a Berlino: porte dei propri incubi, una scala nel vuoto, una cattedrale di muschio, un mare di sogni ghiacciati, l'acchiappasogni di Q'allith."
+estratto: "Il mondo in cui gli investigatori entrano addormentandosi a Berlino: le porte dei loro incubi, una scala nel vuoto, una cattedrale di muschio, un mare di sogni ghiacciati, l'acchiappasogni di Q'allith."
 ---
 
 I simboli del sarcofago indicavano già Mu e la Terra dei Sogni. Il gruppo vi

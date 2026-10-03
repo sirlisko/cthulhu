@@ -2,7 +2,7 @@
 titolo: Il caveau di Berlino
 numero: 3
 data: 2025-05-09
-estratto: Dalla Psychology Society al caveau della Banca di Berlino, passando per una biblioteca che non vuole lasciarli andare. Agatha perde un dito, Rita rivede la sorella morta.
+estratto: Dalla Psychology Society al caveau della Banca di Berlino, passando per una biblioteca che non vuole lasciar andare gli investigatori. Agatha perde un dito, Rita rivede la sorella morta.
 luoghiVisitati: [Psychology Society, Berlino, Hotel Savoy, Banca di Berlino, Biblioteca di Berlino]
 ---
 
@@ -50,7 +50,7 @@ In uno sgabuzzino della [[Biblioteca di Berlino|biblioteca]] trovano
 l'*Antiquarium Tenebris*. Racconta di Nyarlathotep, il Caos Strisciante,
 signore della rovina dai mille avatar, e di alcune delle sue forme:
 [[Ara'gul]], il genio seduttore il cui simbolo è sul diario, intermediario
-sulla terra; [[Q'allith]], la Tessitrice di Incubi, che si nutre di
+sulla Terra; [[Q'allith]], la Tessitrice di Incubi, che si nutre di
 angosce, manipola i sogni, vi intrappola le persone e si proietta nel mondo
 reale, e che può essere esiliata solo con un artefatto benevolo; e un
 terzo nome, Xeztoth.
@@ -61,7 +61,7 @@ pagarne il prezzo in sanità.
 
 ## Il caveau
 
-Nella banca si respira un'aria diversa da quella della biblioteca, malsana.
+Nella banca si respira un'aria malsana, diversa da quella della biblioteca.
 Gli investigatori entrano nel caveau: la chiave apre una delle cassette più
 antiche, ricoperta da una sorta di muffa spettrale. Dentro c'è un disco di
 ossidiana, nero e lucido come vetro vulcanico: uno specchio, custodito lì
@@ -69,7 +69,7 @@ da un anno.
 
 Nello specchio Rita vede la sorellina morta; anche Chung vede la propria
 sorella. HP vede una foto di sé con gli altri, coperta di muffa. Solo la
-sorella di Rita ne è priva.
+sorella di Rita è senza muffa.
 
 Al [[Hotel Savoy|Savoy]] qualcuno consegna ad Agatha un biglietto da visita con
 l'indirizzo di un antiquario: identico a quello che HP aveva ricevuto per

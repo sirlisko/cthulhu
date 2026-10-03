@@ -1,12 +1,12 @@
 ---
 titolo: Jade
 stato: viva
-estratto: Incinta, legata a una sorella che nel sogno la accusa di essere succube dei suoi poteri. Il suo diario resta asciutto nel mare dei sogni.
+estratto: Incinta, cerca nel sogno una sorella che la insulta e dice di odiarla. Il suo diario resta asciutto nel mare dei sogni.
 ---
 
 Nel sogno (capitolo [[Le porte]]) Jade cerca la sorella lungo un corridoio
 di mani gelide e la trova avvolta da spettri. Quella che la insulta non è
 sua sorella: Jade colpisce lo spirito e il gong la riporta a una porta.
 
-Il suo diario, unico oggetto asciutto nel mare ghiacciato delle [[Terre
-del Sogno]], aiuta il gruppo a leggere i sogni scritti nel ghiaccio.
+Nel mare ghiacciato delle [[Terre del Sogno]] il suo diario resta asciutto,
+ed è lei a notare che sul ghiaccio sono scritti dei sogni.

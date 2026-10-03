@@ -17,9 +17,8 @@ Merriweather]], ed è la carta del Diavolo a ricordarle che lui la sta per
 lasciare.
 
 Nella [[Biblioteca di Berlino]] perde un dito cercando di prendere
-l'*Antiquarium Tenebris*; [[Kurt Vebert|Kurt]] glielo riattacca il giorno dopo
-(vedi [[La scatola di Rupert|i primi capitoli]] e [[Lo specchio
-d'opale]]). È lei a preparare il rituale per entrare nel sogno, e a
+l'*Antiquarium Tenebris*; [[Kurt Vebert|Kurt]] lo sostituisce con quello di una
+scimmia (capitoli [[Il caveau di Berlino]] e [[Lo specchio d'opale]]). È lei a preparare il rituale per entrare nel sogno, e a
 custodire lo specchio d'opale.
 
 Contro [[Q'allith]] forza il potere dello specchio fino a farselo

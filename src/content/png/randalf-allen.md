@@ -3,7 +3,7 @@ titolo: Randalf Allen
 ruolo: Finanziatore della spedizione del 1865
 stato: morto
 luogo: New Orleans
-estratto: Collezionista di antichità, finanziò la spedizione in Egitto del 1865. Morto nel 1875, ufficialmente d'infarto, ma male, a New Orleans.
+estratto: "Collezionista di antichità, finanziò la spedizione in Egitto del 1865. Morì a New Orleans nel 1875: ufficialmente d'infarto, ma di una brutta morte."
 ---
 
 Finanziò la spedizione in Egitto di [[Evelyn Trommer]] e [[Hans Trommer]].

@@ -10,7 +10,7 @@ sorellina morta, l'unica figura senza muffa.
 
 Nel suo sogno (capitolo [[Le porte]]) scopre la verità: è stata lei a
 sparare alla sorella, e il fratello che cercava non è mai esistito. Si
-spara. La ritroviamo in un bozzolo nell'acchiappasogni, con un buco in
+spara. Gli investigatori la ritrovano in un bozzolo nell'acchiappasogni, con un buco in
 testa, prima che [[Q'allith]] la divori.
 
 Al risveglio, nel suo corpo c'è [[Chung]].
