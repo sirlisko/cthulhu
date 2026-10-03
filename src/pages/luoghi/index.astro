@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardGrid from '../../components/CardGrid.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const places = (await getCollection('luoghi')).sort((a, b) => a.data.titolo.localeCompare(b.data.titolo));
+---
+<BaseLayout title="Luoghi" description="I luoghi visitati o sentiti nominare dagli investigatori nel corso della campagna.">
+  <h1 class="page-title">Luoghi</h1>
+  <p class="page-lede">Città, case, biblioteche e altri luoghi, dagli Stati Uniti a Berlino.</p>
+  <CardGrid>
+    {places.map((l) => (
+      <Card
+        href={`/luoghi/${l.id}`}
+        title={l.data.titolo}
+        excerpt={l.data.estratto}
+        meta={[l.data.tipo, l.data.regione].filter(Boolean).join(' · ')}
+      />
+    ))}
+  </CardGrid>
+</BaseLayout>

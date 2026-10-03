@@ -1,0 +1,28 @@
+{
+  "name": "cthulhu",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@12.5.1",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.0",
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/reenie-beanie": "^5.3.0",
+    "@fontsource/unifrakturmaguntia": "^5.3.0",
+    "astro": "^7.3.1"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2",
+    "unist-util-visit": "^5.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import EntryLayout from '../../layouts/EntryLayout.astro';
+import { toRoman, longDate } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const sessions = (await getCollection('sessions')).sort((a, b) => a.data.numero - b.data.numero);
+  return sessions.map((entry, i) => ({
+    params: { id: entry.id },
+    props: { entry, prev: sessions[i - 1], next: sessions[i + 1] },
+  }));
+}
+
+const { entry, prev, next } = Astro.props;
+const { Content } = await render(entry);
+---
+<EntryLayout
+  title={entry.data.titolo}
+  description={entry.data.estratto}
+  meta={`Capitolo ${toRoman(entry.data.numero)} · ${longDate(entry.data.data)}`}
+  tags={entry.data.tag}
+  backlinksUrl={`/diario/${entry.id}`}
+>
+  <Content />
+  <nav slot="after" class="entry-pager" aria-label="Altre sessioni">
+    {prev && (
+      <a href={`/diario/${prev.id}`}>&larr; {toRoman(prev.data.numero)}. {prev.data.titolo}</a>
+    )}
+    {next && (
+      <a class="entry-pager-next" href={`/diario/${next.id}`}>{toRoman(next.data.numero)}. {next.data.titolo} &rarr;</a>
+    )}
+  </nav>
+</EntryLayout>

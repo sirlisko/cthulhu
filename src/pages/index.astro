@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { getCollection } from 'astro:content';
+import { toRoman, longDate } from '../lib/format';
+
+const sessions = (await getCollection('sessions')).sort((a, b) => b.data.numero - a.data.numero);
+const latest = sessions[0];
+
+const characters = (await getCollection('personaggi')).sort((a, b) =>
+  a.data.titolo.localeCompare(b.data.titolo)
+);
+const portraitFor = (id: string) => `/images/personaggi/${id}-full.png`;
+const party = characters.filter((p) => fs.existsSync(path.join(process.cwd(), 'public', portraitFor(p.id))));
+---
+<BaseLayout masthead>
+  {latest && (
+    <section class="latest-session">
+      <p class="kicker kicker-split">
+        <span>Ultimo capitolo · {toRoman(latest.data.numero)}</span>
+        <span>{longDate(latest.data.data)}</span>
+      </p>
+      <h2><a href={`/diario/${latest.id}`}>{latest.data.titolo}</a></h2>
+      {latest.data.estratto && <p class="drop-cap">{latest.data.estratto}</p>}
+      <p class="read-more"><a href={`/diario/${latest.id}`}>Continua a leggere</a></p>
+    </section>
+  )}
+
+  {party.length > 0 && (
+    <section>
+      <div class="ornament" aria-hidden="true">&#10022; &#10022; &#10022;</div>
+      <h2 class="section-title">Gli investigatori</h2>
+      <div class="cast-grid">
+        {party.map((p) => (
+          <a class="cast-portrait" href={`/personaggi/${p.id}`}>
+            <img src={portraitFor(p.id)} alt="" loading="lazy" />
+            <span>{p.data.titolo}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {party.length === 0 && characters.length > 0 && (
+    <section>
+      <div class="ornament" aria-hidden="true">&#10022; &#10022; &#10022;</div>
+      <h2 class="section-title">Dramatis personae</h2>
+      <ul class="dramatis">
+        {characters.map((p) => (
+          <li>
+            <a href={`/personaggi/${p.id}`}>{p.data.titolo}</a>
+            {p.data.professione && <span> {p.data.professione}</span>}
+            {p.data.stato !== 'vivo' && <span class={`badge badge-${p.data.stato}`}> {p.data.stato}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {sessions.length > 0 && (
+    <section>
+      <div class="ornament" aria-hidden="true">&#10022; &#10022; &#10022;</div>
+      <h2 class="section-title">Capitoli</h2>
+      <ol class="session-index">
+        {sessions.map((s) => (
+          <li>
+            <span class="session-index-number">{toRoman(s.data.numero)}</span>
+            <a href={`/diario/${s.id}`}>{s.data.titolo}</a>
+            <span class="session-index-leader" aria-hidden="true"></span>
+            <span class="session-index-date">
+              {s.data.data.toLocaleDateString('it-IT', { day: 'numeric', month: 'short' })}
+            </span>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+</BaseLayout>

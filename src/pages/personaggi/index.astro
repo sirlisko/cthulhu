@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardGrid from '../../components/CardGrid.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const characters = (await getCollection('personaggi')).sort((a, b) =>
+  a.data.titolo.localeCompare(b.data.titolo)
+);
+---
+<BaseLayout title="Investigatori" description="Gli investigatori della campagna: chi sono, da dove vengono e cosa hanno visto.">
+  <h1 class="page-title">Investigatori</h1>
+  <p class="page-lede">Coloro che hanno indagato, e ciò che ne è rimasto.</p>
+  <CardGrid>
+    {characters.map((p) => (
+      <Card
+        href={`/personaggi/${p.id}`}
+        title={p.data.titolo}
+        excerpt={p.data.estratto}
+        meta={[p.data.professione, p.data.giocatore && `Giocatore: ${p.data.giocatore}`].filter(Boolean).join(' · ')}
+        status={p.data.stato}
+        image={p.data.immagine}
+      />
+    ))}
+  </CardGrid>
+</BaseLayout>

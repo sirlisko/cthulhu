@@ -1,0 +1,34 @@
+---
+import { getCollection, render } from 'astro:content';
+import EntryLayout from '../../layouts/EntryLayout.astro';
+
+export async function getStaticPaths() {
+  const characters = await getCollection('personaggi');
+  return characters.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const meta = [
+  entry.data.professione,
+  entry.data.sanita !== undefined && `Sanità ${entry.data.sanita}`,
+  entry.data.giocatore && `Giocatore: ${entry.data.giocatore}`,
+  entry.data.fazione,
+]
+  .filter(Boolean)
+  .join(' · ');
+---
+<EntryLayout
+  title={entry.data.titolo}
+  description={entry.data.estratto}
+  meta={meta}
+  status={entry.data.stato}
+  tags={entry.data.tag}
+  backlinksUrl={`/personaggi/${entry.id}`}
+  image={entry.data.immagine}
+>
+  <Content />
+</EntryLayout>

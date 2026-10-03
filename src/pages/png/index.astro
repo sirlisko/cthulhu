@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardGrid from '../../components/CardGrid.astro';
+import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content';
+
+const npcs = (await getCollection('png')).sort((a, b) => a.data.titolo.localeCompare(b.data.titolo));
+---
+<BaseLayout title="Comprimari" description="Le persone incontrate dagli investigatori: alleati, nemici e figure di cui è meglio non parlare.">
+  <h1 class="page-title">Comprimari</h1>
+  <p class="page-lede">Alleati, nemici e comparse incontrate lungo le indagini.</p>
+  <CardGrid>
+    {npcs.map((p) => (
+      <Card
+        href={`/png/${p.id}`}
+        title={p.data.titolo}
+        excerpt={p.data.estratto}
+        meta={[p.data.ruolo, p.data.luogo].filter(Boolean).join(' · ')}
+        status={p.data.stato}
+      />
+    ))}
+  </CardGrid>
+</BaseLayout>

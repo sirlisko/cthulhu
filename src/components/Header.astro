@@ -1,0 +1,39 @@
+---
+import Sigil from './Sigil.astro';
+import { siteName } from '../lib/site';
+
+interface Props {
+  masthead?: boolean;
+}
+const { masthead = false } = Astro.props;
+
+const links = [
+  { href: '/riassunto/', label: 'Riassunto' },
+  { href: '/diario/', label: 'Capitoli' },
+  { href: '/cronologia/', label: 'Cronologia' },
+  { href: '/personaggi/', label: 'Investigatori' },
+  { href: '/png/', label: 'Comprimari' },
+  { href: '/luoghi/', label: 'Luoghi' },
+  { href: '/cerca/', label: 'Cerca' },
+];
+
+const path = Astro.url.pathname;
+const isWithin = (href: string) => path === href.slice(0, -1) || path.startsWith(href);
+---
+<header class:list={['site-header', { 'site-header-masthead': masthead }]}>
+  {masthead ? (
+    <>
+      <Sigil class="masthead-sigil" />
+      <p class="masthead-kicker">Stagione I</p>
+      <h1 class="masthead-title">{siteName}</h1>
+      <p class="masthead-lede">Cronaca di quanto vedemmo tra gli Stati Uniti e Berlino, e di quanto preferiremmo dimenticare.</p>
+    </>
+  ) : (
+    <a href="/" class="site-header-title">{siteName}</a>
+  )}
+  <nav class="site-nav" aria-label="Navigazione principale">
+    {links.map((l) => (
+      <a href={l.href} aria-current={isWithin(l.href) ? 'page' : undefined}>{l.label}</a>
+    ))}
+  </nav>
+</header>
