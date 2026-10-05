@@ -14,3 +14,9 @@
   from = "/png/kurt"
   to = "/png/kurt-vebert"
   status = 301
+
+# Cronologia was merged into Capitoli.
+[[redirects]]
+  from = "/cronologia"
+  to = "/diario/"
+  status = 301

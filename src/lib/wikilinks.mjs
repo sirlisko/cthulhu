@@ -46,10 +46,9 @@ export function normalize(str) {
     .replace(/\s+/g, ' ');
 }
 
-function extractTitle(raw) {
-  const m = raw.match(/^titolo:\s*(.+)$/m);
-  if (!m) return null;
-  return m[1].trim().replace(/^["']|["']$/g, '');
+function frontmatterField(raw, key) {
+  const m = raw.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
+  return m?.[1].trim().replace(/^(["'])(.*)\1$/, '$2');
 }
 
 let cache = null;
@@ -66,11 +65,19 @@ export function getSlugMap() {
       if (!file.endsWith('.md')) continue;
       const id = file.replace(/\.md$/, '');
       const raw = fs.readFileSync(path.join(dir, file), 'utf-8');
-      const title = extractTitle(raw) ?? id;
+      const title = frontmatterField(raw, 'titolo') ?? id;
       const url = collection === 'riassunto' ? routeBase : `${routeBase}/${id}`;
+      const entry = {
+        url,
+        title,
+        collection,
+        ruolo: frontmatterField(raw, 'ruolo'),
+        stato: frontmatterField(raw, 'stato'),
+        tipo: frontmatterField(raw, 'tipo'),
+      };
 
-      cache.set(normalize(id), { url, title });
-      cache.set(normalize(title), { url, title });
+      cache.set(normalize(id), entry);
+      cache.set(normalize(title), entry);
     }
   }
   return cache;

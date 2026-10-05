@@ -83,7 +83,16 @@ scope, e.g. `feat(content): add sessione-03`.
   and `src/lib/remark-wikilinks.mjs` (remark plugin). A wikilink to a missing
   entity doesn't break the build: it renders as a "broken link" and logs a
   `[wikilinks] Unresolved link` warning.
-- Backlinks ("Menzionato in") are computed by `src/lib/backlinks.ts`.
+- Backlinks ("Menzionato in") are computed by `src/lib/backlinks.ts` from
+  every entry's wikilinks, plus each session's `luoghiVisitati`.
+- Session pages get margin notes on wide screens (not to be confused with the
+  blockquote marginalia): `remark-wikilinks.mjs` lists, after each `##`
+  heading, the comprimari and places mentioned there for the first time, with
+  their `ruolo` (or `tipo`) and a † when `stato` is `morto`/`morta`. Keep
+  `ruolo` short: it's what the margin shows.
+- Astro caches rendered markdown in `node_modules/.astro/data-store.json` and
+  doesn't notice changes to the remark plugins: delete that file after
+  editing them, or old renders stick around.
 - In `astro dev`, restart the dev server after adding new entities.
 - Entry pages use their `estratto` as the meta description, so keep it a
   self-contained sentence.
