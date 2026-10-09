@@ -96,6 +96,7 @@ scope, e.g. `feat(content): add sessione-03`.
 - In `astro dev`, restart the dev server after adding new entities.
 - Entry pages use their `estratto` as the meta description, so keep it a
   self-contained sentence.
+- Files starting with `_` are drafts: skipped by the collections and by the wikilink slug map.
 - Investigator portraits live in `public/images/personaggi/`: `<id>.png`
   (square, referenced by `immagine`) and `<id>-full.png` (tall, shown on the
   home page instead of the "Dramatis personae" list when present).
